@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cfc775b-6567-42eb-b12e-5437b0e748ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DoWhileLoop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NestedLoopWIthLabelBreak.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,26 +28,26 @@
           <entry key="gitignore" value="2" />
           <entry key="iml" value="2" />
           <entry key="java" value="1" />
-          <entry key="kt" value="9" />
+          <entry key="kt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
           <entry key="JAVA" value="1" />
-          <entry key="Kotlin" value="9" />
+          <entry key="Kotlin" value="10" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="7" />
-          <entry key="kt" value="2477" />
+          <entry key="kt" value="2902" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="2477" />
+          <entry key="Kotlin" value="2902" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
@@ -63,11 +64,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DoWhileLoop.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="6" column="1" selection-start-column="30" selection-end-line="6" selection-end-column="1" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/NestedLoopWIthLabelBreak.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -98,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/ExpressionWhenAndIf.kt" />
         <option value="$PROJECT_DIR$/src/NestedLoofCondition.kt" />
         <option value="$PROJECT_DIR$/src/DoWhileLoop.kt" />
+        <option value="$PROJECT_DIR$/src/NestedLoopWIthLabelBreak.kt" />
       </list>
     </option>
   </component>
@@ -125,6 +136,10 @@
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="KotlinDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -134,7 +149,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536405814850" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536411007130" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RunDashboard">
@@ -149,7 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.DoWhileLoopKt">
+  <component name="RunManager" selected="Kotlin.NestedLoopWIthLabelBreakKt">
     <configuration name="DoWhileLoopKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinDemo" />
       <option name="VM_PARAMETERS" />
@@ -176,19 +191,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetYourAgeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="GetYourAgeKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NestedLoofConditionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinDemo" />
       <option name="VM_PARAMETERS" />
@@ -197,6 +199,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="NestedLoofConditionKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NestedLoopWIthLabelBreakKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="NestedLoopWIthLabelBreakKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -216,19 +231,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.GetYourAgeKt" />
       <item itemvalue="Kotlin.WhenConditionStatementKt" />
       <item itemvalue="Kotlin.ExpressionWhenAndIfKt" />
       <item itemvalue="Kotlin.NestedLoofConditionKt" />
       <item itemvalue="Kotlin.DoWhileLoopKt" />
+      <item itemvalue="Kotlin.NestedLoopWIthLabelBreakKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.NestedLoopWIthLabelBreakKt" />
         <item itemvalue="Kotlin.DoWhileLoopKt" />
         <item itemvalue="Kotlin.NestedLoofConditionKt" />
         <item itemvalue="Kotlin.ExpressionWhenAndIfKt" />
         <item itemvalue="Kotlin.WhenConditionStatementKt" />
-        <item itemvalue="Kotlin.GetYourAgeKt" />
       </list>
     </recent_temporary>
   </component>
@@ -245,8 +260,17 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="60" y="-8" width="1314" height="784" extended-state="6" />
+    <frame x="60" y="-8" width="1314" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.175" />
@@ -263,7 +287,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32852563" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49913043" weight="0.32852563" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49913043" visible="true" weight="0.32852563" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008696" side_tool="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32852563" />
@@ -324,6 +348,18 @@
           <line>1</line>
           <properties />
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/NestedLoopWIthLabelBreak.kt</url>
+          <line>3</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/NestedLoopWIthLabelBreak.kt</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -404,7 +440,14 @@
     <entry file="file://$PROJECT_DIR$/src/DoWhileLoop.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="1" selection-start-column="30" selection-end-line="6" selection-end-column="1" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NestedLoopWIthLabelBreak.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
