@@ -45,10 +45,13 @@ class MultiOperations1() : Operations1() {
 
 fun main(args: Array<String>) {
     var op = Operations1()
-    var sum = op.sum(10, 50)
+    var sum = op.sum(3, 2)
     println(sum)
     var div = op.div(12, 11)
     println(div)
-    var mulop = MultiOperations1()
+//    var mulop = MultiOperations1()
+
+//    here we are casting the multiOperantions1 as Operations1
+    var mulop = MultiOperations1() as Operations1
     println(mulop.sum(2, 2))
 }
