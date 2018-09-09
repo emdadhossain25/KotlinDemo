@@ -1,9 +1,9 @@
 fun main(args: Array<String>) {
     println(sum(25.0,55.0))
-    disply(10)
+    disply()
 }
 
-fun disply(n:Int):Unit{
+fun disply(n:Int=0):Unit{
     println("n:$n")
 }
 
