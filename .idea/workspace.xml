@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cfc775b-6567-42eb-b12e-5437b0e748ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HashMapClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KotlinCOllects.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo/META-INF/KotlinDemo.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo/META-INF/KotlinDemo.kotlin_module" afterDir="false" />
     </list>
@@ -63,25 +63,25 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="91" />
-          <entry key="kt" value="1473" />
+          <entry key="kt" value="1826" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="91" />
-          <entry key="Kotlin" value="1473" />
+          <entry key="Kotlin" value="1826" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="1" />
-          <entry key="kt" value="6" />
+          <entry key="kt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="1" />
-          <entry key="Kotlin" value="6" />
+          <entry key="Kotlin" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -89,10 +89,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/HashMapClass.kt">
+        <entry file="file://$PROJECT_DIR$/src/KotlinCOllects.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+            <state relative-caret-position="529">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -129,6 +129,7 @@
         <option value="$PROJECT_DIR$/src/OneDimensionalArrya.kt" />
         <option value="$PROJECT_DIR$/src/ArrayList.kt" />
         <option value="$PROJECT_DIR$/src/HashMapClass.kt" />
+        <option value="$PROJECT_DIR$/src/KotlinCOllects.kt" />
       </list>
     </option>
   </component>
@@ -180,7 +181,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536484420375" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536484962002" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -196,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.HashMapClassKt">
+  <component name="RunManager" selected="Kotlin.KotlinCOllectsKt">
     <configuration name="ArrayListKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinDemo" />
       <option name="VM_PARAMETERS" />
@@ -223,14 +224,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedLoopWIthLabelBreakKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="KotlinCOllectsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="NestedLoopWIthLabelBreakKt" />
+      <option name="MAIN_CLASS_NAME" value="KotlinCOllectsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -263,19 +264,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.NestedLoopWIthLabelBreakKt" />
       <item itemvalue="Kotlin.StringsKt" />
       <item itemvalue="Kotlin.OneDimensionalArryaKt" />
       <item itemvalue="Kotlin.ArrayListKt" />
       <item itemvalue="Kotlin.HashMapClassKt" />
+      <item itemvalue="Kotlin.KotlinCOllectsKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.KotlinCOllectsKt" />
         <item itemvalue="Kotlin.HashMapClassKt" />
         <item itemvalue="Kotlin.ArrayListKt" />
         <item itemvalue="Kotlin.OneDimensionalArryaKt" />
         <item itemvalue="Kotlin.StringsKt" />
-        <item itemvalue="Kotlin.NestedLoopWIthLabelBreakKt" />
       </list>
     </recent_temporary>
   </component>
@@ -520,8 +521,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashMapClass.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        <state relative-caret-position="253">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KotlinCOllects.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
         </state>
       </provider>
     </entry>
